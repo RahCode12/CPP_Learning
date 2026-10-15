@@ -1,15 +1,17 @@
 #include <iostream>
+using namespace std;
 
 int main(){
 
-    std::string user_name = "";
-    int user_age = 0;
-    std::cout << "Enter your name: ";
-    std::getline(std::cin, user_name);
+    const string Name = "Rahul Prasad";
+    int age = 17;
+    double CGP = 7.0;
 
-    std::cout <<"Enter your age:";
-    std::cin >> user_age;
+    double mark = CGP*10;
 
-    std::cout << "Hello " << user_name << ". You are " << user_age << " years old." << std::endl;
+    cout << "Hello Mr." <<Name<<endl;
+    cout <<"Age is "<<age<<endl;
+    cout<< "CGP : "<<CGP<<" Mark in CGP: "<< mark<<endl;
     return 0;
+
 }

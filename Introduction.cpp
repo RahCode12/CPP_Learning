@@ -19,6 +19,10 @@ int main(){
     char character = 999;
     cout << "Assigining an int value to char Datatype  "<< character <<endl; // random character is generate due to overflow
 
+    cout<<"Enter your Nickname: ";
+    string nickname  ="";
+    getline(cin,nickname); //similar to gets in c program . it is also object of std soo you have to std:: 
+    cout << "Nickname: " <<nickname<<endl;
 
     cout << "Hello Mr." <<Name<<endl;
     cout <<"Age is "<<age<<endl;

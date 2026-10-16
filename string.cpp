@@ -20,7 +20,12 @@ int main(){
 
     char c_string[] = "C-language";//old method to init string in C 
 
-    cout << c_string ;
+    cout << c_string << endl ;
+
+    // In C i can change the string index its not immutable
+
+    Name[0] = 'k';
+    cout << Name << " New Name after changing" << endl;
  
 
 

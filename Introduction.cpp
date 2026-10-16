@@ -33,6 +33,9 @@ int main(){
     cin >> attandance;
     cout << "Your attandance is " << attandance;
 
+    bool isAdult = true;
+    cout << "Your are adult " << isAdult <<endl; 
+
 
     return 0;
 

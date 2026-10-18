@@ -40,6 +40,12 @@ int main() {
 
     //iteration of variable or string and array in for can be done 
 
+    int array[2] = {0};
+
+    for(int i :array){
+        cout << "Array" << i << endl;
+    }
+
     for(char c : name){
         cout << "Character: " << c << endl;
     }

@@ -25,7 +25,7 @@ int main() {
     //Searching using Algorithm
     vector <int>::iterator max = max_element(Number.begin(),Number.end()); //iterator is the pointer of datatype vector
     auto min = min_element(Number.begin(),Number.end());
-
+    
     cout <<"Max: "<<*min<< endl; //
 
 
